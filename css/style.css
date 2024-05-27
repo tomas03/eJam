@@ -2,6 +2,15 @@
     padding: 0;
     margin: 0;
 }
+@font-face {
+    font-family: 'Manrope';
+    src: url('../font/Manrope-VariableFont_wght.ttf');
+}
+body{
+    font-family: 'Manrope';
+    font-weight: 100;
+}
+/*header*/
 .header{
     display: flex;
     padding: 1%;
@@ -16,3 +25,42 @@
 .container-hdr i{
     margin-right: 5%;
 }
+/*Logos*/
+.logos{
+    display: flex;
+    margin-top: 3%;
+}
+.image{
+width: 80%;
+}
+.image2{
+    width: 80%;
+}
+.image3{
+    width: 80%;
+}
+.clarifion{
+    width: 40%;
+    margin-left: 5%;
+
+}
+.mcafee{
+    width: 30%;
+    margin-left: 60%;
+}
+.norton{
+    width: 30%;
+    margin-top: -1%;
+}
+/*OIP Section*/
+.OIP{
+    text-align: center;
+}
+.OIP h1{
+    font-size: 42px;
+    font-weight: 300;
+}
+
+
+
+
