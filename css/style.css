@@ -9,7 +9,17 @@
 body{
     font-family: 'Manrope';
     font-weight: 100;
+    padding: 0;
+    margin: 0;
 }
+.bold{
+    font-weight: bold;
+}
+.i{
+    width: 20px;
+    height: 20px;
+    margin-right: 2%;
+    }
 /*header*/
 .header{
     display: flex;
@@ -59,6 +69,26 @@ width: 80%;
 .OIP h1{
     font-size: 42px;
     font-weight: 300;
+}
+/*order status*/
+.order-status{
+    display: flex;
+    margin-left: 15%;
+    margin-top: 2%;
+}
+.i-3{
+    width: 30px;
+    height: 30px;
+    margin-right: 2%; 
+}
+.i-4{
+    width: 30px;
+    height: 30px;
+    margin-right: 2%; 
+}
+.steps{
+display: flex;
+width: 20%;
 }
 
 
