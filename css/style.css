@@ -90,7 +90,18 @@ width: 80%;
 display: flex;
 width: 20%;
 }
+/*product section*/
+.prod-sect{
+    background-color: #252f3d;
+}
+.left-sect{
+    width: 50%;
 
+}
+.prod-img{
+    width: 70%;
+    padding: 1%;
+}
 
 
 
